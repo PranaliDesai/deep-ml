@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**26** solved · 21 problems · 0 labs · 5 math
+**27** solved · 22 problems · 0 labs · 5 math
 
 ![Coverage](./coverage.svg)
 
@@ -32,6 +32,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Vector Norms (L1/L2/L-inf) and the Frobenius Norm](https://www.deep-ml.com/problems/328) | easy | 2026-10-07 | [solution](problems/0328-vector-norms-l1-l2-l-inf-and-the-frobenius-norm) |
 | [Derivative of Softmax](https://www.deep-ml.com/problems/219) | medium | 2026-10-08 | [solution](problems/0219-derivative-of-softmax) |
 | [Entropy & Cross-Entropy](https://www.deep-ml.com/problems/205) | medium | 2026-10-08 | [solution](problems/0205-entropy-cross-entropy) |
+| [Numerically Stable Softmax](https://www.deep-ml.com/problems/1227) | medium | 2026-10-08 | [solution](problems/1227-numerically-stable-softmax) |
 | [Two-Layer MLP Forward Pass](https://www.deep-ml.com/problems/1225) | medium | 2026-10-08 | [solution](problems/1225-two-layer-mlp-forward-pass) |
 
 ## Math
