@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**20** solved · 15 problems · 0 labs · 5 math
+**21** solved · 16 problems · 0 labs · 5 math
 
 ![Coverage](./coverage.svg)
 
@@ -22,6 +22,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [L2 Normalization Along an Axis](https://www.deep-ml.com/problems/1022) | easy | 2026-10-07 | [solution](problems/1022-l2-normalization-along-an-axis) |
 | [Leaky ReLU Activation Function](https://www.deep-ml.com/problems/44) | easy | 2026-10-07 | [solution](problems/0044-leaky-relu-activation-function) |
 | [Regex-Based Text Tokenizer](https://www.deep-ml.com/problems/940) | easy | 2026-10-08 | [solution](problems/0940-regex-based-text-tokenizer) |
+| [Reshape and Transpose a Tensor](https://www.deep-ml.com/problems/881) | easy | 2026-10-08 | [solution](problems/0881-reshape-and-transpose-a-tensor) |
 | [Sigmoid Activation Function Understanding](https://www.deep-ml.com/problems/22) | easy | 2026-10-07 | [solution](problems/0022-sigmoid-activation-function-understanding) |
 | [Softmax Activation Function Implementation ](https://www.deep-ml.com/problems/23) | easy | 2026-10-07 | [solution](problems/0023-softmax-activation-function-implementation) |
 | [Vector Norms (L1/L2/L-inf) and the Frobenius Norm](https://www.deep-ml.com/problems/328) | easy | 2026-10-07 | [solution](problems/0328-vector-norms-l1-l2-l-inf-and-the-frobenius-norm) |
