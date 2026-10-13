@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:04:36.869Z",
+  "generated_at": "2026-10-13T14:59:02.533Z",
   "items": {
     "problem:118": {
       "kind": "problem",
@@ -425,7 +425,7 @@
       "url": "https://www.deep-ml.com/problems/25",
       "path": "problems/0025-single-neuron-with-backpropagation",
       "first_solved_at": "2026-10-09T21:04:36.324Z",
-      "last_pushed_at": "2026-10-09T21:04:36.324Z",
+      "last_pushed_at": "2026-10-13T14:59:01.766Z",
       "language": "python",
       "lines": 27
     }
