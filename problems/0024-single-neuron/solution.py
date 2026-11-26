@@ -1,15 +1,17 @@
-import torch
-import torch.nn.functional as F
+import numpy as np
 
 def single_neuron_model(features: list[list[float]], labels: list[int], weights: list[float], bias: float) -> tuple[list[float], float]:
-    X = torch.tensor(features, dtype=torch.float32)   # (N, D)
-    y = torch.tensor(labels, dtype=torch.float32)     # (N,)
-    w = torch.tensor(weights, dtype=torch.float32)    # (D,)
+    X = np.array(features)
+    y = np.array(labels)
+    w = np.array(weights)
 
-    z = torch.matmul(X, w) + bias                     # (N, D) @ (D,) -> (N,)
-    probs = torch.sigmoid(z)                          # (N,)
+    # Weighted sum
+    z = np.dot(X, w) + bias
 
-    mse = F.mse_loss(probs, y)
+    # Sigmoid activation
+    predictions = 1 / (1 + np.exp(-z))
 
-    probs_out = [round(p, 4) for p in probs.tolist()]
-    return probs_out, round(mse.item(), 4)
+    # Mean squared error
+    loss = np.mean((predictions - y) ** 2)
+
+    return predictions.tolist(), float(loss)
